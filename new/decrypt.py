@@ -11,7 +11,7 @@ sir_intrare = g.read(1)
 while sir_intrare:
     f.write(chr(sir_intrare[0] ^ ord(cheie[i % len(cheie)])))
     sir_intrare = g.read(1)
-    i += 1
+
 g.close()
 
 f.close()
